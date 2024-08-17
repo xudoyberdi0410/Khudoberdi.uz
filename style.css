@@ -94,6 +94,11 @@ header::before{
 footer{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.copy{
+    padding: 20px 0;
 }
 .links{
     display: flex;
